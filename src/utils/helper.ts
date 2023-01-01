@@ -1,3 +1,3 @@
 export const timer = (ms: number) => {
-    return new Promise(res => setTimeout(res, ms));
+    return new Promise(res => setTimeout(res, ms))
 }
